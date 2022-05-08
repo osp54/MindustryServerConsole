@@ -1,0 +1,1406 @@
+[05-07-2022 15:23:44] [I] Server loaded. Type 'help' for help.
+[05-07-2022 15:23:57] [I] Commands:
+[05-07-2022 15:23:57] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-07-2022 15:23:57] [I]    version - Displays server version info.
+[05-07-2022 15:23:57] [I]    exit - Exit the server application.
+[05-07-2022 15:23:57] [I]    stop - Stop hosting the server.
+[05-07-2022 15:23:57] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-07-2022 15:23:57] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-07-2022 15:23:57] [I]    reloadmaps - Reload all maps from disk.
+[05-07-2022 15:23:57] [I]    status - Display server status.
+[05-07-2022 15:23:57] [I]    mods - Display all loaded mods.
+[05-07-2022 15:23:57] [I]    mod <name...> - Display information about a loaded plugin.
+[05-07-2022 15:23:57] [I]    js <script...> - Run arbitrary Javascript.
+[05-07-2022 15:23:57] [I]    say <message...> - Send a message to all players.
+[05-07-2022 15:23:57] [I]    pause <on/off> - Pause or unpause the game.
+[05-07-2022 15:23:57] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-07-2022 15:23:57] [I]    fillitems [team] - Fill the core with items.
+[05-07-2022 15:23:57] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-07-2022 15:23:57] [I]    config [name] [value...] - Configure server settings.
+[05-07-2022 15:23:57] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-07-2022 15:23:57] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-07-2022 15:23:57] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-07-2022 15:23:57] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-07-2022 15:23:57] [I]    kick <username...> - Kick a person by name.
+[05-07-2022 15:23:57] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-07-2022 15:23:57] [I]    bans - List all banned IPs and IDs.
+[05-07-2022 15:23:57] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-07-2022 15:23:57] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-07-2022 15:23:57] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-07-2022 15:23:57] [I]    admins - List all admins.
+[05-07-2022 15:23:57] [I]    players - List all players currently in game.
+[05-07-2022 15:23:57] [I]    runwave - Trigger the next wave.
+[05-07-2022 15:23:57] [I]    load <slot> - Load a save from a slot.
+[05-07-2022 15:23:57] [I]    save <slot> - Save game state to a slot.
+[05-07-2022 15:23:57] [I]    saves - List all saves in the save directory.
+[05-07-2022 15:23:57] [I]    gameover - Force a game over.
+[05-07-2022 15:23:57] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-07-2022 15:23:57] [I]    search <name...> - Search players who have used part of a name.
+[05-07-2022 15:23:57] [I]    gc - Trigger a garbage collection. Testing only.
+[05-07-2022 15:23:57] [I]    yes - Run the last suggested incorrect command.
+[05-07-2022 15:24:13] [E] Command not found. Did you mean "js"?
+[05-07-2022 15:24:13] [E] Command not found. Did you mean "js"?
+[05-07-2022 15:24:13] [E] Command not found. Did you mean "js"?
+[05-07-2022 15:24:13] [E] Command not found. Did you mean "js"?
+[05-07-2022 15:24:13] [E] Command not found. Did you mean "js"?
+[05-07-2022 15:24:13] [E] Command not found. Did you mean "js"?
+[05-07-2022 15:24:13] [E] Command not found. Did you mean "js"?
+[05-07-2022 15:24:13] [E] Command not found. Did you mean "js"?
+[05-07-2022 15:24:13] [E] Command not found. Did you mean "js"?
+[05-07-2022 15:24:13] [E] Command not found. Did you mean "js"?
+[05-07-2022 15:24:13] [E] Command not found. Did you mean "js"?
+[05-07-2022 15:24:13] [E] Command not found. Did you mean "js"?
+[05-07-2022 15:24:13] [I] Commands:
+[05-07-2022 15:24:13] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-07-2022 15:24:13] [I]    version - Displays server version info.
+[05-07-2022 15:24:13] [I]    exit - Exit the server application.
+[05-07-2022 15:24:13] [I]    stop - Stop hosting the server.
+[05-07-2022 15:24:13] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-07-2022 15:24:13] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-07-2022 15:24:13] [I]    reloadmaps - Reload all maps from disk.
+[05-07-2022 15:24:13] [I]    status - Display server status.
+[05-07-2022 15:24:13] [I]    mods - Display all loaded mods.
+[05-07-2022 15:24:13] [I]    mod <name...> - Display information about a loaded plugin.
+[05-07-2022 15:24:13] [I]    js <script...> - Run arbitrary Javascript.
+[05-07-2022 15:24:13] [I]    say <message...> - Send a message to all players.
+[05-07-2022 15:24:13] [I]    pause <on/off> - Pause or unpause the game.
+[05-07-2022 15:24:13] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-07-2022 15:24:13] [I]    fillitems [team] - Fill the core with items.
+[05-07-2022 15:24:13] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-07-2022 15:24:13] [I]    config [name] [value...] - Configure server settings.
+[05-07-2022 15:24:13] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-07-2022 15:24:13] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-07-2022 15:24:13] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-07-2022 15:24:13] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-07-2022 15:24:13] [I]    kick <username...> - Kick a person by name.
+[05-07-2022 15:24:13] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-07-2022 15:24:13] [I]    bans - List all banned IPs and IDs.
+[05-07-2022 15:24:13] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-07-2022 15:24:13] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-07-2022 15:24:13] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-07-2022 15:24:13] [I]    admins - List all admins.
+[05-07-2022 15:24:13] [I]    players - List all players currently in game.
+[05-07-2022 15:24:13] [I]    runwave - Trigger the next wave.
+[05-07-2022 15:24:13] [I]    load <slot> - Load a save from a slot.
+[05-07-2022 15:24:13] [I]    save <slot> - Save game state to a slot.
+[05-07-2022 15:24:13] [I]    saves - List all saves in the save directory.
+[05-07-2022 15:24:13] [I]    gameover - Force a game over.
+[05-07-2022 15:24:13] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-07-2022 15:24:13] [I]    search <name...> - Search players who have used part of a name.
+[05-07-2022 15:24:13] [I]    gc - Trigger a garbage collection. Testing only.
+[05-07-2022 15:24:13] [I]    yes - Run the last suggested incorrect command.
+[05-07-2022 15:24:28] [I] Commands:
+[05-07-2022 15:24:28] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-07-2022 15:24:28] [I]    version - Displays server version info.
+[05-07-2022 15:24:28] [I]    exit - Exit the server application.
+[05-07-2022 15:24:28] [I]    stop - Stop hosting the server.
+[05-07-2022 15:24:28] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-07-2022 15:24:28] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-07-2022 15:24:28] [I]    reloadmaps - Reload all maps from disk.
+[05-07-2022 15:24:28] [I]    status - Display server status.
+[05-07-2022 15:24:28] [I]    mods - Display all loaded mods.
+[05-07-2022 15:24:28] [I]    mod <name...> - Display information about a loaded plugin.
+[05-07-2022 15:24:28] [I]    js <script...> - Run arbitrary Javascript.
+[05-07-2022 15:24:28] [I]    say <message...> - Send a message to all players.
+[05-07-2022 15:24:28] [I]    pause <on/off> - Pause or unpause the game.
+[05-07-2022 15:24:28] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-07-2022 15:24:28] [I]    fillitems [team] - Fill the core with items.
+[05-07-2022 15:24:28] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-07-2022 15:24:28] [I]    config [name] [value...] - Configure server settings.
+[05-07-2022 15:24:28] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-07-2022 15:24:28] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-07-2022 15:24:28] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-07-2022 15:24:28] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-07-2022 15:24:28] [I]    kick <username...> - Kick a person by name.
+[05-07-2022 15:24:28] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-07-2022 15:24:28] [I]    bans - List all banned IPs and IDs.
+[05-07-2022 15:24:28] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-07-2022 15:24:28] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-07-2022 15:24:28] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-07-2022 15:24:28] [I]    admins - List all admins.
+[05-07-2022 15:24:28] [I]    players - List all players currently in game.
+[05-07-2022 15:24:28] [I]    runwave - Trigger the next wave.
+[05-07-2022 15:24:28] [I]    load <slot> - Load a save from a slot.
+[05-07-2022 15:24:28] [I]    save <slot> - Save game state to a slot.
+[05-07-2022 15:24:28] [I]    saves - List all saves in the save directory.
+[05-07-2022 15:24:28] [I]    gameover - Force a game over.
+[05-07-2022 15:24:28] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-07-2022 15:24:28] [I]    search <name...> - Search players who have used part of a name.
+[05-07-2022 15:24:28] [I]    gc - Trigger a garbage collection. Testing only.
+[05-07-2022 15:24:28] [I]    yes - Run the last suggested incorrect command.
+[05-07-2022 15:24:31] [I] Commands:
+[05-07-2022 15:24:31] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-07-2022 15:24:31] [I]    version - Displays server version info.
+[05-07-2022 15:24:31] [I]    exit - Exit the server application.
+[05-07-2022 15:24:31] [I]    stop - Stop hosting the server.
+[05-07-2022 15:24:31] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-07-2022 15:24:31] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-07-2022 15:24:31] [I]    reloadmaps - Reload all maps from disk.
+[05-07-2022 15:24:31] [I]    status - Display server status.
+[05-07-2022 15:24:31] [I]    mods - Display all loaded mods.
+[05-07-2022 15:24:31] [I]    mod <name...> - Display information about a loaded plugin.
+[05-07-2022 15:24:31] [I]    js <script...> - Run arbitrary Javascript.
+[05-07-2022 15:24:31] [I]    say <message...> - Send a message to all players.
+[05-07-2022 15:24:31] [I]    pause <on/off> - Pause or unpause the game.
+[05-07-2022 15:24:31] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-07-2022 15:24:31] [I]    fillitems [team] - Fill the core with items.
+[05-07-2022 15:24:31] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-07-2022 15:24:31] [I]    config [name] [value...] - Configure server settings.
+[05-07-2022 15:24:31] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-07-2022 15:24:31] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-07-2022 15:24:31] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-07-2022 15:24:31] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-07-2022 15:24:31] [I]    kick <username...> - Kick a person by name.
+[05-07-2022 15:24:31] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-07-2022 15:24:31] [I]    bans - List all banned IPs and IDs.
+[05-07-2022 15:24:31] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-07-2022 15:24:31] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-07-2022 15:24:31] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-07-2022 15:24:31] [I]    admins - List all admins.
+[05-07-2022 15:24:31] [I]    players - List all players currently in game.
+[05-07-2022 15:24:31] [I]    runwave - Trigger the next wave.
+[05-07-2022 15:24:31] [I]    load <slot> - Load a save from a slot.
+[05-07-2022 15:24:31] [I]    save <slot> - Save game state to a slot.
+[05-07-2022 15:24:31] [I]    saves - List all saves in the save directory.
+[05-07-2022 15:24:31] [I]    gameover - Force a game over.
+[05-07-2022 15:24:31] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-07-2022 15:24:31] [I]    search <name...> - Search players who have used part of a name.
+[05-07-2022 15:24:31] [I]    gc - Trigger a garbage collection. Testing only.
+[05-07-2022 15:24:31] [I]    yes - Run the last suggested incorrect command.
+[05-07-2022 15:24:32] [E] Invalid command. Type 'help' for help.
+[05-08-2022 12:48:21] [I] Server loaded. Type 'help' for help.
+[05-08-2022 12:48:25] [I] Commands:
+[05-08-2022 12:48:25] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 12:48:25] [I]    version - Displays server version info.
+[05-08-2022 12:48:25] [I]    exit - Exit the server application.
+[05-08-2022 12:48:25] [I]    stop - Stop hosting the server.
+[05-08-2022 12:48:25] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 12:48:25] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 12:48:25] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 12:48:25] [I]    status - Display server status.
+[05-08-2022 12:48:25] [I]    mods - Display all loaded mods.
+[05-08-2022 12:48:25] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 12:48:25] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 12:48:25] [I]    say <message...> - Send a message to all players.
+[05-08-2022 12:48:25] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 12:48:25] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 12:48:25] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 12:48:25] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 12:48:25] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 12:48:25] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 12:48:25] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 12:48:25] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 12:48:25] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 12:48:25] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 12:48:25] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 12:48:25] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 12:48:25] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 12:48:25] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 12:48:25] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 12:48:25] [I]    admins - List all admins.
+[05-08-2022 12:48:25] [I]    players - List all players currently in game.
+[05-08-2022 12:48:25] [I]    runwave - Trigger the next wave.
+[05-08-2022 12:48:25] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 12:48:25] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 12:48:25] [I]    saves - List all saves in the save directory.
+[05-08-2022 12:48:25] [I]    gameover - Force a game over.
+[05-08-2022 12:48:25] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 12:48:25] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 12:48:25] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 12:48:25] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 12:48:31] [I] Commands:
+[05-08-2022 12:48:31] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 12:48:31] [I]    version - Displays server version info.
+[05-08-2022 12:48:31] [I]    exit - Exit the server application.
+[05-08-2022 12:48:31] [I]    stop - Stop hosting the server.
+[05-08-2022 12:48:31] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 12:48:31] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 12:48:31] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 12:48:31] [I]    status - Display server status.
+[05-08-2022 12:48:31] [I]    mods - Display all loaded mods.
+[05-08-2022 12:48:31] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 12:48:31] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 12:48:31] [I]    say <message...> - Send a message to all players.
+[05-08-2022 12:48:31] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 12:48:31] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 12:48:31] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 12:48:31] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 12:48:31] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 12:48:31] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 12:48:31] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 12:48:31] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 12:48:31] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 12:48:31] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 12:48:31] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 12:48:31] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 12:48:31] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 12:48:31] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 12:48:31] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 12:48:31] [I]    admins - List all admins.
+[05-08-2022 12:48:31] [I]    players - List all players currently in game.
+[05-08-2022 12:48:31] [I]    runwave - Trigger the next wave.
+[05-08-2022 12:48:31] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 12:48:31] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 12:48:31] [I]    saves - List all saves in the save directory.
+[05-08-2022 12:48:31] [I]    gameover - Force a game over.
+[05-08-2022 12:48:31] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 12:48:31] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 12:48:31] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 12:48:31] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 12:54:08] [I] Server loaded. Type 'help' for help.
+[05-08-2022 12:54:13] [E] Command not found. Did you mean "mod"?
+[05-08-2022 12:55:36] [I] Server loaded. Type 'help' for help.
+[05-08-2022 12:57:29] [I] Server loaded. Type 'help' for help.
+[05-08-2022 12:57:58] [I] Server loaded. Type 'help' for help.
+[05-08-2022 12:57:59] [E] Invalid command. Type 'help' for help.
+[05-08-2022 12:58:03] [E] Command not found. Did you mean "js"?
+[05-08-2022 12:58:03] [E] Command not found. Did you mean "js"?
+[05-08-2022 12:58:03] [E] Command not found. Did you mean "mod"?
+[05-08-2022 12:58:04] [E] Command not found. Did you mean "mod"?
+[05-08-2022 12:58:06] [E] Command not found. Did you mean "js"?
+[05-08-2022 12:58:06] [E] Command not found. Did you mean "js"?
+[05-08-2022 12:58:06] [E] Command not found. Did you mean "mod"?
+[05-08-2022 12:58:07] [I] Commands:
+[05-08-2022 12:58:07] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 12:58:07] [I]    version - Displays server version info.
+[05-08-2022 12:58:07] [I]    exit - Exit the server application.
+[05-08-2022 12:58:07] [I]    stop - Stop hosting the server.
+[05-08-2022 12:58:07] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 12:58:07] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 12:58:07] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 12:58:07] [I]    status - Display server status.
+[05-08-2022 12:58:07] [I]    mods - Display all loaded mods.
+[05-08-2022 12:58:07] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 12:58:07] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 12:58:07] [I]    say <message...> - Send a message to all players.
+[05-08-2022 12:58:07] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 12:58:07] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 12:58:07] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 12:58:07] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 12:58:07] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 12:58:07] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 12:58:07] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 12:58:07] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 12:58:07] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 12:58:07] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 12:58:07] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 12:58:07] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 12:58:07] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 12:58:07] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 12:58:07] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 12:58:07] [I]    admins - List all admins.
+[05-08-2022 12:58:07] [I]    players - List all players currently in game.
+[05-08-2022 12:58:07] [I]    runwave - Trigger the next wave.
+[05-08-2022 12:58:07] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 12:58:07] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 12:58:07] [I]    saves - List all saves in the save directory.
+[05-08-2022 12:58:07] [I]    gameover - Force a game over.
+[05-08-2022 12:58:07] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 12:58:07] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 12:58:07] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 12:58:07] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 12:58:12] [I] Commands:
+[05-08-2022 12:58:12] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 12:58:12] [I]    version - Displays server version info.
+[05-08-2022 12:58:12] [I]    exit - Exit the server application.
+[05-08-2022 12:58:12] [I]    stop - Stop hosting the server.
+[05-08-2022 12:58:12] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 12:58:12] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 12:58:12] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 12:58:12] [I]    status - Display server status.
+[05-08-2022 12:58:12] [I]    mods - Display all loaded mods.
+[05-08-2022 12:58:12] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 12:58:12] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 12:58:12] [I]    say <message...> - Send a message to all players.
+[05-08-2022 12:58:12] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 12:58:12] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 12:58:12] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 12:58:12] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 12:58:12] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 12:58:12] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 12:58:12] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 12:58:12] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 12:58:12] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 12:58:12] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 12:58:12] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 12:58:12] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 12:58:12] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 12:58:12] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 12:58:12] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 12:58:12] [I]    admins - List all admins.
+[05-08-2022 12:58:12] [I]    players - List all players currently in game.
+[05-08-2022 12:58:12] [I]    runwave - Trigger the next wave.
+[05-08-2022 12:58:12] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 12:58:12] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 12:58:12] [I]    saves - List all saves in the save directory.
+[05-08-2022 12:58:12] [I]    gameover - Force a game over.
+[05-08-2022 12:58:12] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 12:58:12] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 12:58:12] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 12:58:12] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:07:13] [I] Server loaded. Type 'help' for help.
+[05-08-2022 13:07:15] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:21] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:21] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:21] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:21] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:21] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:21] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:22] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:23] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:24] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:24] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:26] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:26] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:26] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:26] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:26] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:27] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:27] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:07:50] [I] Server loaded. Type 'help' for help.
+[05-08-2022 13:07:55] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:09:05] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:09:05] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:09:08] [I] Commands:
+[05-08-2022 13:09:08] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:09:08] [I]    version - Displays server version info.
+[05-08-2022 13:09:08] [I]    exit - Exit the server application.
+[05-08-2022 13:09:08] [I]    stop - Stop hosting the server.
+[05-08-2022 13:09:08] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:09:08] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:09:08] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:09:08] [I]    status - Display server status.
+[05-08-2022 13:09:08] [I]    mods - Display all loaded mods.
+[05-08-2022 13:09:08] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:09:08] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:09:08] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:09:08] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:09:08] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:09:08] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:09:08] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:09:08] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:09:08] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:09:08] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:09:08] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:09:08] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:09:08] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:09:08] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:09:08] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:09:08] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:09:08] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:09:08] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:09:08] [I]    admins - List all admins.
+[05-08-2022 13:09:08] [I]    players - List all players currently in game.
+[05-08-2022 13:09:08] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:09:08] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:09:08] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:09:08] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:09:08] [I]    gameover - Force a game over.
+[05-08-2022 13:09:08] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:09:08] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:09:08] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:09:08] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:09:17] [E] Invalid command. Type 'help' for help.
+[05-08-2022 13:09:19] [E] Invalid command. Type 'help' for help.
+[05-08-2022 13:09:54] [I] Server loaded. Type 'help' for help.
+[05-08-2022 13:09:58] [I] Commands:
+[05-08-2022 13:09:58] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:09:58] [I]    version - Displays server version info.
+[05-08-2022 13:09:58] [I]    exit - Exit the server application.
+[05-08-2022 13:09:58] [I]    stop - Stop hosting the server.
+[05-08-2022 13:09:58] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:09:58] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:09:58] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:09:58] [I]    status - Display server status.
+[05-08-2022 13:09:58] [I]    mods - Display all loaded mods.
+[05-08-2022 13:09:58] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:09:58] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:09:58] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:09:58] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:09:58] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:09:58] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:09:58] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:09:58] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:09:58] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:09:58] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:09:58] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:09:58] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:09:58] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:09:58] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:09:58] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:09:58] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:09:58] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:09:58] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:09:58] [I]    admins - List all admins.
+[05-08-2022 13:09:58] [I]    players - List all players currently in game.
+[05-08-2022 13:09:58] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:09:58] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:09:58] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:09:58] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:09:58] [I]    gameover - Force a game over.
+[05-08-2022 13:09:58] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:09:58] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:09:58] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:09:58] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:10:02] [I] Commands:
+[05-08-2022 13:10:02] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:10:02] [I]    version - Displays server version info.
+[05-08-2022 13:10:02] [I]    exit - Exit the server application.
+[05-08-2022 13:10:02] [I]    stop - Stop hosting the server.
+[05-08-2022 13:10:02] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:10:02] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:10:02] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:10:02] [I]    status - Display server status.
+[05-08-2022 13:10:02] [I]    mods - Display all loaded mods.
+[05-08-2022 13:10:02] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:10:02] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:10:02] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:10:02] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:10:02] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:10:02] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:10:02] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:10:02] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:10:02] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:10:02] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:10:02] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:10:02] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:10:02] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:10:02] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:10:02] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:10:02] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:10:02] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:10:02] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:10:02] [I]    admins - List all admins.
+[05-08-2022 13:10:02] [I]    players - List all players currently in game.
+[05-08-2022 13:10:02] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:10:02] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:10:02] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:10:02] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:10:02] [I]    gameover - Force a game over.
+[05-08-2022 13:10:02] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:10:02] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:10:02] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:10:02] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:10:30] [I] Server loaded. Type 'help' for help.
+[05-08-2022 13:10:31] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:10:32] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:10:34] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:34] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:34] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:34] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:34] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:10:35] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:35] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:35] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:35] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:10:36] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:36] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:36] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:10:37] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:37] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:10:38] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:38] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:10:39] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:10:39] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:10:40] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:10:40] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:10:40] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:10:42] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:42] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:42] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:42] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:42] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:10:44] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:44] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:44] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:44] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:44] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:44] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:44] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:44] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:10:48] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:48] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:48] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:48] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:48] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:48] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:10:48] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:11:23] [I] Server loaded. Type 'help' for help.
+[05-08-2022 13:11:26] [I] Commands:
+[05-08-2022 13:11:26] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:11:26] [I]    version - Displays server version info.
+[05-08-2022 13:11:26] [I]    exit - Exit the server application.
+[05-08-2022 13:11:26] [I]    stop - Stop hosting the server.
+[05-08-2022 13:11:26] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:11:26] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:11:26] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:11:26] [I]    status - Display server status.
+[05-08-2022 13:11:26] [I]    mods - Display all loaded mods.
+[05-08-2022 13:11:26] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:11:26] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:11:26] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:11:26] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:11:26] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:11:26] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:11:26] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:11:26] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:11:26] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:11:26] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:11:26] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:11:26] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:11:26] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:11:26] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:11:26] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:11:26] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:11:26] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:11:26] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:11:26] [I]    admins - List all admins.
+[05-08-2022 13:11:26] [I]    players - List all players currently in game.
+[05-08-2022 13:11:26] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:11:26] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:11:26] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:11:26] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:11:26] [I]    gameover - Force a game over.
+[05-08-2022 13:11:26] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:11:26] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:11:26] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:11:26] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:11:31] [I] Commands:
+[05-08-2022 13:11:31] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:11:31] [I]    version - Displays server version info.
+[05-08-2022 13:11:31] [I]    exit - Exit the server application.
+[05-08-2022 13:11:31] [I]    stop - Stop hosting the server.
+[05-08-2022 13:11:31] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:11:31] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:11:31] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:11:31] [I]    status - Display server status.
+[05-08-2022 13:11:31] [I]    mods - Display all loaded mods.
+[05-08-2022 13:11:31] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:11:31] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:11:31] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:11:31] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:11:31] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:11:31] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:11:31] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:11:31] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:11:31] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:11:31] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:11:31] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:11:31] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:11:31] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:11:31] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:11:31] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:11:31] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:11:31] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:11:31] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:11:31] [I]    admins - List all admins.
+[05-08-2022 13:11:31] [I]    players - List all players currently in game.
+[05-08-2022 13:11:31] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:11:31] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:11:31] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:11:31] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:11:31] [I]    gameover - Force a game over.
+[05-08-2022 13:11:31] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:11:31] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:11:31] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:11:31] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:11:34] [E] Invalid command. Type 'help' for help.
+[05-08-2022 13:18:17] [I] Server loaded. Type 'help' for help.
+[05-08-2022 13:18:22] [I] Commands:
+[05-08-2022 13:18:22] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:18:22] [I]    version - Displays server version info.
+[05-08-2022 13:18:22] [I]    exit - Exit the server application.
+[05-08-2022 13:18:22] [I]    stop - Stop hosting the server.
+[05-08-2022 13:18:22] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:18:22] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:18:22] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:18:22] [I]    status - Display server status.
+[05-08-2022 13:18:22] [I]    mods - Display all loaded mods.
+[05-08-2022 13:18:22] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:18:22] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:18:22] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:18:22] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:18:22] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:18:22] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:18:22] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:18:22] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:18:22] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:18:22] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:18:22] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:18:22] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:18:22] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:18:22] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:18:22] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:18:22] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:18:22] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:18:22] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:18:22] [I]    admins - List all admins.
+[05-08-2022 13:18:22] [I]    players - List all players currently in game.
+[05-08-2022 13:18:22] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:18:22] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:18:22] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:18:22] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:18:22] [I]    gameover - Force a game over.
+[05-08-2022 13:18:22] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:18:22] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:18:22] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:18:22] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:18:25] [E] Invalid command. Type 'help' for help.
+[05-08-2022 13:18:27] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:18:27] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:18:27] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:18:27] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:18:27] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:18:29] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:18:29] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:18:29] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:18:29] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:18:30] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:18:32] [I] Commands:
+[05-08-2022 13:18:32] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:18:32] [I]    version - Displays server version info.
+[05-08-2022 13:18:32] [I]    exit - Exit the server application.
+[05-08-2022 13:18:32] [I]    stop - Stop hosting the server.
+[05-08-2022 13:18:32] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:18:32] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:18:32] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:18:32] [I]    status - Display server status.
+[05-08-2022 13:18:32] [I]    mods - Display all loaded mods.
+[05-08-2022 13:18:32] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:18:32] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:18:32] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:18:32] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:18:32] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:18:32] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:18:32] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:18:32] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:18:32] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:18:32] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:18:32] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:18:32] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:18:32] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:18:32] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:18:32] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:18:32] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:18:32] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:18:32] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:18:32] [I]    admins - List all admins.
+[05-08-2022 13:18:32] [I]    players - List all players currently in game.
+[05-08-2022 13:18:32] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:18:32] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:18:32] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:18:32] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:18:32] [I]    gameover - Force a game over.
+[05-08-2022 13:18:32] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:18:32] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:18:32] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:18:32] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:19:34] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:19:34] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:19:34] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:19:34] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:19:38] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:19:46] [I] Server loaded. Type 'help' for help.
+[05-08-2022 13:19:52] [I] Commands:
+[05-08-2022 13:19:52] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:19:52] [I]    version - Displays server version info.
+[05-08-2022 13:19:52] [I]    exit - Exit the server application.
+[05-08-2022 13:19:52] [I]    stop - Stop hosting the server.
+[05-08-2022 13:19:52] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:19:52] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:19:52] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:19:52] [I]    status - Display server status.
+[05-08-2022 13:19:52] [I]    mods - Display all loaded mods.
+[05-08-2022 13:19:52] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:19:52] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:19:52] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:19:52] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:19:52] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:19:52] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:19:52] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:19:52] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:19:52] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:19:52] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:19:52] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:19:52] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:19:52] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:19:52] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:19:52] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:19:52] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:19:52] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:19:52] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:19:52] [I]    admins - List all admins.
+[05-08-2022 13:19:52] [I]    players - List all players currently in game.
+[05-08-2022 13:19:52] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:19:52] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:19:52] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:19:52] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:19:52] [I]    gameover - Force a game over.
+[05-08-2022 13:19:52] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:19:52] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:19:52] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:19:52] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:20:08] [I] Commands:
+[05-08-2022 13:20:08] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:20:08] [I]    version - Displays server version info.
+[05-08-2022 13:20:08] [I]    exit - Exit the server application.
+[05-08-2022 13:20:08] [I]    stop - Stop hosting the server.
+[05-08-2022 13:20:08] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:20:08] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:20:08] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:20:08] [I]    status - Display server status.
+[05-08-2022 13:20:08] [I]    mods - Display all loaded mods.
+[05-08-2022 13:20:08] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:20:08] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:20:08] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:20:08] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:20:08] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:20:08] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:20:08] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:20:08] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:20:08] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:20:08] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:20:08] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:20:08] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:20:08] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:20:08] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:20:08] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:20:08] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:20:08] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:20:08] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:20:08] [I]    admins - List all admins.
+[05-08-2022 13:20:08] [I]    players - List all players currently in game.
+[05-08-2022 13:20:08] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:20:08] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:20:08] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:20:08] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:20:08] [I]    gameover - Force a game over.
+[05-08-2022 13:20:08] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:20:08] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:20:08] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:20:08] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:20:56] [I] Server loaded. Type 'help' for help.
+[05-08-2022 13:20:56] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:20:57] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:20:59] [I] Commands:
+[05-08-2022 13:20:59] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:20:59] [I]    version - Displays server version info.
+[05-08-2022 13:20:59] [I]    exit - Exit the server application.
+[05-08-2022 13:20:59] [I]    stop - Stop hosting the server.
+[05-08-2022 13:20:59] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:20:59] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:20:59] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:20:59] [I]    status - Display server status.
+[05-08-2022 13:20:59] [I]    mods - Display all loaded mods.
+[05-08-2022 13:20:59] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:20:59] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:20:59] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:20:59] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:20:59] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:20:59] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:20:59] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:20:59] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:20:59] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:20:59] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:20:59] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:20:59] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:20:59] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:20:59] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:20:59] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:20:59] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:20:59] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:20:59] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:20:59] [I]    admins - List all admins.
+[05-08-2022 13:20:59] [I]    players - List all players currently in game.
+[05-08-2022 13:20:59] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:20:59] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:20:59] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:20:59] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:20:59] [I]    gameover - Force a game over.
+[05-08-2022 13:20:59] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:20:59] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:20:59] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:20:59] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:21:03] [I] Commands:
+[05-08-2022 13:21:03] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:21:03] [I]    version - Displays server version info.
+[05-08-2022 13:21:03] [I]    exit - Exit the server application.
+[05-08-2022 13:21:03] [I]    stop - Stop hosting the server.
+[05-08-2022 13:21:03] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:21:03] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:21:03] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:21:03] [I]    status - Display server status.
+[05-08-2022 13:21:03] [I]    mods - Display all loaded mods.
+[05-08-2022 13:21:03] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:21:03] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:21:03] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:21:03] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:21:03] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:21:03] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:21:03] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:21:03] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:21:03] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:21:03] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:21:03] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:21:03] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:21:03] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:21:03] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:21:03] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:21:03] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:21:03] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:21:03] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:21:03] [I]    admins - List all admins.
+[05-08-2022 13:21:03] [I]    players - List all players currently in game.
+[05-08-2022 13:21:03] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:21:03] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:21:03] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:21:03] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:21:03] [I]    gameover - Force a game over.
+[05-08-2022 13:21:03] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:21:03] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:21:03] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:21:03] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:21:16] [I] Commands:
+[05-08-2022 13:21:16] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:21:16] [I]    version - Displays server version info.
+[05-08-2022 13:21:16] [I]    exit - Exit the server application.
+[05-08-2022 13:21:16] [I]    stop - Stop hosting the server.
+[05-08-2022 13:21:16] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:21:16] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:21:16] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:21:16] [I]    status - Display server status.
+[05-08-2022 13:21:16] [I]    mods - Display all loaded mods.
+[05-08-2022 13:21:16] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:21:16] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:21:16] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:21:16] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:21:16] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:21:16] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:21:16] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:21:16] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:21:16] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:21:16] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:21:16] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:21:16] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:21:16] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:21:16] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:21:16] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:21:16] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:21:16] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:21:16] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:21:16] [I]    admins - List all admins.
+[05-08-2022 13:21:16] [I]    players - List all players currently in game.
+[05-08-2022 13:21:16] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:21:16] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:21:16] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:21:16] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:21:16] [I]    gameover - Force a game over.
+[05-08-2022 13:21:16] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:21:16] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:21:16] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:21:16] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:21:19] [E] Invalid command. Type 'help' for help.
+[05-08-2022 13:21:43] [I] Commands:
+[05-08-2022 13:21:43] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:21:43] [I]    version - Displays server version info.
+[05-08-2022 13:21:43] [I]    exit - Exit the server application.
+[05-08-2022 13:21:43] [I]    stop - Stop hosting the server.
+[05-08-2022 13:21:43] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:21:43] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:21:43] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:21:43] [I]    status - Display server status.
+[05-08-2022 13:21:43] [I]    mods - Display all loaded mods.
+[05-08-2022 13:21:43] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:21:43] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:21:43] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:21:43] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:21:43] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:21:43] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:21:43] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:21:43] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:21:43] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:21:43] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:21:43] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:21:43] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:21:43] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:21:43] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:21:43] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:21:43] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:21:43] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:21:43] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:21:43] [I]    admins - List all admins.
+[05-08-2022 13:21:43] [I]    players - List all players currently in game.
+[05-08-2022 13:21:43] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:21:43] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:21:43] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:21:43] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:21:43] [I]    gameover - Force a game over.
+[05-08-2022 13:21:43] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:21:43] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:21:43] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:21:43] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:21:48] [E] Invalid command. Type 'help' for help.
+[05-08-2022 13:21:49] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:21:50] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:21:54] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:21:54] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:21:54] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:21:54] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:21:54] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:21:54] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:21:54] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:21:54] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:21:54] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:21:54] [I] Commands:
+[05-08-2022 13:21:54] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:21:54] [I]    version - Displays server version info.
+[05-08-2022 13:21:54] [I]    exit - Exit the server application.
+[05-08-2022 13:21:54] [I]    stop - Stop hosting the server.
+[05-08-2022 13:21:54] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:21:54] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:21:54] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:21:54] [I]    status - Display server status.
+[05-08-2022 13:21:54] [I]    mods - Display all loaded mods.
+[05-08-2022 13:21:54] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:21:54] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:21:54] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:21:54] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:21:54] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:21:54] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:21:54] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:21:54] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:21:54] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:21:54] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:21:54] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:21:54] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:21:54] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:21:54] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:21:54] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:21:54] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:21:54] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:21:54] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:21:54] [I]    admins - List all admins.
+[05-08-2022 13:21:54] [I]    players - List all players currently in game.
+[05-08-2022 13:21:54] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:21:54] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:21:54] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:21:54] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:21:54] [I]    gameover - Force a game over.
+[05-08-2022 13:21:54] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:21:54] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:21:54] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:21:54] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:22:06] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:22:06] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:22:06] [I] Commands:
+[05-08-2022 13:22:06] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:22:06] [I]    version - Displays server version info.
+[05-08-2022 13:22:06] [I]    exit - Exit the server application.
+[05-08-2022 13:22:06] [I]    stop - Stop hosting the server.
+[05-08-2022 13:22:06] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:22:06] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:22:06] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:22:06] [I]    status - Display server status.
+[05-08-2022 13:22:06] [I]    mods - Display all loaded mods.
+[05-08-2022 13:22:06] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:22:06] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:22:06] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:22:06] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:22:06] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:22:06] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:22:06] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:22:06] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:22:06] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:22:06] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:22:06] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:22:06] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:22:06] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:22:06] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:22:06] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:22:06] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:22:06] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:22:06] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:22:06] [I]    admins - List all admins.
+[05-08-2022 13:22:06] [I]    players - List all players currently in game.
+[05-08-2022 13:22:06] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:22:06] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:22:06] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:22:06] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:22:06] [I]    gameover - Force a game over.
+[05-08-2022 13:22:06] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:22:06] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:22:06] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:22:06] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:22:31] [I] Server loaded. Type 'help' for help.
+[05-08-2022 13:22:31] [I] Commands:
+[05-08-2022 13:22:31] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:22:31] [I]    version - Displays server version info.
+[05-08-2022 13:22:31] [I]    exit - Exit the server application.
+[05-08-2022 13:22:31] [I]    stop - Stop hosting the server.
+[05-08-2022 13:22:31] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:22:31] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:22:31] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:22:31] [I]    status - Display server status.
+[05-08-2022 13:22:31] [I]    mods - Display all loaded mods.
+[05-08-2022 13:22:31] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:22:31] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:22:31] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:22:31] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:22:31] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:22:31] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:22:31] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:22:31] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:22:31] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:22:31] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:22:31] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:22:31] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:22:31] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:22:31] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:22:31] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:22:31] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:22:31] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:22:31] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:22:31] [I]    admins - List all admins.
+[05-08-2022 13:22:31] [I]    players - List all players currently in game.
+[05-08-2022 13:22:31] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:22:31] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:22:31] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:22:31] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:22:31] [I]    gameover - Force a game over.
+[05-08-2022 13:22:31] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:22:31] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:22:31] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:22:31] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:22:36] [I] Commands:
+[05-08-2022 13:22:36] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:22:36] [I]    version - Displays server version info.
+[05-08-2022 13:22:36] [I]    exit - Exit the server application.
+[05-08-2022 13:22:36] [I]    stop - Stop hosting the server.
+[05-08-2022 13:22:36] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:22:36] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:22:36] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:22:36] [I]    status - Display server status.
+[05-08-2022 13:22:36] [I]    mods - Display all loaded mods.
+[05-08-2022 13:22:36] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:22:36] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:22:36] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:22:36] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:22:36] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:22:36] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:22:36] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:22:36] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:22:36] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:22:36] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:22:36] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:22:36] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:22:36] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:22:36] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:22:36] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:22:36] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:22:36] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:22:36] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:22:36] [I]    admins - List all admins.
+[05-08-2022 13:22:36] [I]    players - List all players currently in game.
+[05-08-2022 13:22:36] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:22:36] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:22:36] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:22:36] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:22:36] [I]    gameover - Force a game over.
+[05-08-2022 13:22:36] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:22:36] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:22:36] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:22:36] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:22:37] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:22:40] [I] Commands:
+[05-08-2022 13:22:40] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:22:40] [I]    version - Displays server version info.
+[05-08-2022 13:22:40] [I]    exit - Exit the server application.
+[05-08-2022 13:22:40] [I]    stop - Stop hosting the server.
+[05-08-2022 13:22:40] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:22:40] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:22:40] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:22:40] [I]    status - Display server status.
+[05-08-2022 13:22:40] [I]    mods - Display all loaded mods.
+[05-08-2022 13:22:40] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:22:40] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:22:40] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:22:40] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:22:40] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:22:40] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:22:40] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:22:40] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:22:40] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:22:40] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:22:40] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:22:40] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:22:40] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:22:40] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:22:40] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:22:40] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:22:40] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:22:40] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:22:40] [I]    admins - List all admins.
+[05-08-2022 13:22:40] [I]    players - List all players currently in game.
+[05-08-2022 13:22:40] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:22:40] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:22:40] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:22:40] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:22:40] [I]    gameover - Force a game over.
+[05-08-2022 13:22:40] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:22:40] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:22:40] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:22:40] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:22:41] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:22:42] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:22:42] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:23:01] [I] Server loaded. Type 'help' for help.
+[05-08-2022 13:23:04] [I] Commands:
+[05-08-2022 13:23:04] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:23:04] [I]    version - Displays server version info.
+[05-08-2022 13:23:04] [I]    exit - Exit the server application.
+[05-08-2022 13:23:04] [I]    stop - Stop hosting the server.
+[05-08-2022 13:23:04] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:23:04] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:23:04] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:23:04] [I]    status - Display server status.
+[05-08-2022 13:23:04] [I]    mods - Display all loaded mods.
+[05-08-2022 13:23:04] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:23:04] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:23:04] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:23:04] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:23:04] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:23:04] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:23:04] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:23:04] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:23:04] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:23:04] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:23:04] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:23:04] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:23:04] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:23:04] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:23:04] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:23:04] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:23:04] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:23:04] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:23:04] [I]    admins - List all admins.
+[05-08-2022 13:23:04] [I]    players - List all players currently in game.
+[05-08-2022 13:23:04] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:23:04] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:23:04] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:23:04] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:23:04] [I]    gameover - Force a game over.
+[05-08-2022 13:23:04] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:23:04] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:23:04] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:23:04] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:23:14] [E] Invalid command. Type 'help' for help.
+[05-08-2022 13:23:15] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:23:15] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:23:16] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:23:16] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:23:17] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:23:17] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:23:17] [E] Command not found. Did you mean "js"?
+[05-08-2022 13:23:22] [I] Commands:
+[05-08-2022 13:23:22] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:23:22] [I]    version - Displays server version info.
+[05-08-2022 13:23:22] [I]    exit - Exit the server application.
+[05-08-2022 13:23:22] [I]    stop - Stop hosting the server.
+[05-08-2022 13:23:22] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:23:22] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:23:22] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:23:22] [I]    status - Display server status.
+[05-08-2022 13:23:22] [I]    mods - Display all loaded mods.
+[05-08-2022 13:23:22] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:23:22] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:23:22] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:23:22] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:23:22] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:23:22] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:23:22] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:23:22] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:23:22] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:23:22] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:23:22] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:23:22] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:23:22] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:23:22] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:23:22] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:23:22] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:23:22] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:23:22] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:23:22] [I]    admins - List all admins.
+[05-08-2022 13:23:22] [I]    players - List all players currently in game.
+[05-08-2022 13:23:22] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:23:22] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:23:22] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:23:22] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:23:22] [I]    gameover - Force a game over.
+[05-08-2022 13:23:22] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:23:22] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:23:22] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:23:22] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:23:29] [I] Commands:
+[05-08-2022 13:23:29] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:23:29] [I]    version - Displays server version info.
+[05-08-2022 13:23:29] [I]    exit - Exit the server application.
+[05-08-2022 13:23:29] [I]    stop - Stop hosting the server.
+[05-08-2022 13:23:29] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:23:29] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:23:29] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:23:29] [I]    status - Display server status.
+[05-08-2022 13:23:29] [I]    mods - Display all loaded mods.
+[05-08-2022 13:23:29] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:23:29] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:23:29] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:23:29] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:23:29] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:23:29] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:23:29] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:23:29] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:23:29] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:23:29] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:23:29] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:23:29] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:23:29] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:23:29] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:23:29] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:23:29] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:23:29] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:23:29] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:23:29] [I]    admins - List all admins.
+[05-08-2022 13:23:29] [I]    players - List all players currently in game.
+[05-08-2022 13:23:29] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:23:29] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:23:29] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:23:29] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:23:29] [I]    gameover - Force a game over.
+[05-08-2022 13:23:29] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:23:29] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:23:29] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:23:29] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:46:43] [I] Server loaded. Type 'help' for help.
+[05-08-2022 13:46:45] [I] Commands:
+[05-08-2022 13:46:45] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:46:45] [I]    version - Displays server version info.
+[05-08-2022 13:46:45] [I]    exit - Exit the server application.
+[05-08-2022 13:46:45] [I]    stop - Stop hosting the server.
+[05-08-2022 13:46:45] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:46:45] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:46:45] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:46:45] [I]    status - Display server status.
+[05-08-2022 13:46:45] [I]    mods - Display all loaded mods.
+[05-08-2022 13:46:45] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:46:45] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:46:45] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:46:45] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:46:45] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:46:45] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:46:45] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:46:45] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:46:45] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:46:45] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:46:45] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:46:45] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:46:45] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:46:45] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:46:45] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:46:45] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:46:45] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:46:45] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:46:45] [I]    admins - List all admins.
+[05-08-2022 13:46:45] [I]    players - List all players currently in game.
+[05-08-2022 13:46:45] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:46:45] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:46:45] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:46:45] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:46:45] [I]    gameover - Force a game over.
+[05-08-2022 13:46:45] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:46:45] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:46:45] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:46:45] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:46:52] [I] Commands:
+[05-08-2022 13:46:52] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:46:52] [I]    version - Displays server version info.
+[05-08-2022 13:46:52] [I]    exit - Exit the server application.
+[05-08-2022 13:46:52] [I]    stop - Stop hosting the server.
+[05-08-2022 13:46:52] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:46:52] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:46:52] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:46:52] [I]    status - Display server status.
+[05-08-2022 13:46:52] [I]    mods - Display all loaded mods.
+[05-08-2022 13:46:52] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:46:52] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:46:52] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:46:52] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:46:52] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:46:52] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:46:52] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:46:52] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:46:52] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:46:52] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:46:52] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:46:52] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:46:52] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:46:52] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:46:52] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:46:52] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:46:52] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:46:52] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:46:52] [I]    admins - List all admins.
+[05-08-2022 13:46:52] [I]    players - List all players currently in game.
+[05-08-2022 13:46:52] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:46:52] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:46:52] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:46:52] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:46:52] [I]    gameover - Force a game over.
+[05-08-2022 13:46:52] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:46:52] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:46:52] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:46:52] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:47:32] [E] Invalid command. Type 'help' for help.
+[05-08-2022 13:47:34] [E] Command not found. Did you mean "mod"?
+[05-08-2022 13:47:37] [I] Commands:
+[05-08-2022 13:47:37] [I]    help [command] - Display the command list, or get help for a specific command.
+[05-08-2022 13:47:37] [I]    version - Displays server version info.
+[05-08-2022 13:47:37] [I]    exit - Exit the server application.
+[05-08-2022 13:47:37] [I]    stop - Stop hosting the server.
+[05-08-2022 13:47:37] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[05-08-2022 13:47:37] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[05-08-2022 13:47:37] [I]    reloadmaps - Reload all maps from disk.
+[05-08-2022 13:47:37] [I]    status - Display server status.
+[05-08-2022 13:47:37] [I]    mods - Display all loaded mods.
+[05-08-2022 13:47:37] [I]    mod <name...> - Display information about a loaded plugin.
+[05-08-2022 13:47:37] [I]    js <script...> - Run arbitrary Javascript.
+[05-08-2022 13:47:37] [I]    say <message...> - Send a message to all players.
+[05-08-2022 13:47:37] [I]    pause <on/off> - Pause or unpause the game.
+[05-08-2022 13:47:37] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[05-08-2022 13:47:37] [I]    fillitems [team] - Fill the core with items.
+[05-08-2022 13:47:37] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[05-08-2022 13:47:37] [I]    config [name] [value...] - Configure server settings.
+[05-08-2022 13:47:37] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[05-08-2022 13:47:37] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[05-08-2022 13:47:37] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[05-08-2022 13:47:37] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[05-08-2022 13:47:37] [I]    kick <username...> - Kick a person by name.
+[05-08-2022 13:47:37] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[05-08-2022 13:47:37] [I]    bans - List all banned IPs and IDs.
+[05-08-2022 13:47:37] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[05-08-2022 13:47:37] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[05-08-2022 13:47:37] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[05-08-2022 13:47:37] [I]    admins - List all admins.
+[05-08-2022 13:47:37] [I]    players - List all players currently in game.
+[05-08-2022 13:47:37] [I]    runwave - Trigger the next wave.
+[05-08-2022 13:47:37] [I]    load <slot> - Load a save from a slot.
+[05-08-2022 13:47:37] [I]    save <slot> - Save game state to a slot.
+[05-08-2022 13:47:37] [I]    saves - List all saves in the save directory.
+[05-08-2022 13:47:37] [I]    gameover - Force a game over.
+[05-08-2022 13:47:37] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[05-08-2022 13:47:37] [I]    search <name...> - Search players who have used part of a name.
+[05-08-2022 13:47:37] [I]    gc - Trigger a garbage collection. Testing only.
+[05-08-2022 13:47:37] [I]    yes - Run the last suggested incorrect command.
+[05-08-2022 13:47:44] [I] Maps reloaded.
+[05-08-2022 13:59:40] [I] Server loaded. Type 'help' for help.
+[05-08-2022 13:59:46] [E] Command not found. Did you mean "help"?
+[05-08-2022 14:05:24] [I] Server loaded. Type 'help' for help.
+[05-08-2022 14:07:05] [I] Server loaded. Type 'help' for help.

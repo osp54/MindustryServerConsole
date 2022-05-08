@@ -1,19 +1,16 @@
 const { spawn } = require('child_process');
 var term = require( 'terminal-kit' ).terminal;
-term.windowTitle("Mindustry server");
 
 process.chdir("./server");
 var child = spawn("java", "-jar server.jar".split(" "), {env:{FORCE_COLOR: true}});
 
 child.stdout.setEncoding('utf8');
 child.stdout.on('data', function(data) {
-    //Here is where the output goes
     term(data);
 });
 
 child.stderr.setEncoding('utf8');
 child.stderr.on('data', function(data) {
-    //Here is where the error output goes
     console.log(data);
 });
 
@@ -23,7 +20,7 @@ term.on('key', function(name, matches, data) {
         term.yesOrNo({yes: ['y', 'ENTER'], no: ['n']}, function(error, result) {
             if (result) {
                 term("Good bye!");
-                child.kill("SIGINT");
+                child.kill();
                 process.exit();
             }
             else {
@@ -80,7 +77,7 @@ function commandInput() {
         history: history,
         autoCompleteHint: true,
         autoCompleteMenu: false,
-        tokenHook: function(token, isEndOfOut, previousTokens, term, config) {
+        tokenHook: function(token, previousTokens, term) {
             if (autoComplete.indexOf(token) > -1 || autoComplete.indexOf(previousTokens[0]) > -1) {
                 return term.green;
             }
@@ -88,11 +85,12 @@ function commandInput() {
                 return term.brightRed;
             }
         }
-        }, function(error , input) {
-            child.stdin.write(input + "\n")
+        }, function(error, input) {
+            term.moveTo(...process.stdout.getWindowSize());
+            child.stdin.write(input + "\n");
             history.push(input);
             term("\n");
             commandInput();
     });
 }
-commandInput()
+commandInput();
