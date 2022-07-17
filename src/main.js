@@ -92,6 +92,9 @@ function commandInput() {
             }
             term.moveTo(...process.stdout.getWindowSize());
             child.stdin.write(input + "\n");
+            if (history.length == 34) {
+                history.shift()
+            }
             history.push(input);
             term("\n");
             commandInput();
