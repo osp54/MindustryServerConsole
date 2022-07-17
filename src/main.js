@@ -1,8 +1,9 @@
 const { spawn } = require('child_process');
-var term = require( 'terminal-kit' ).terminal;
+const term = require( 'terminal-kit' ).terminal;
 
-process.chdir("./server");
-var child = spawn("java", "-jar server.jar".split(" "), {env:{FORCE_COLOR: true}});
+var argv = process.argv.slice(2)
+
+var child = spawn("java", argv, {env:{FORCE_COLOR: true}});
 
 child.stdout.setEncoding('utf8');
 child.stdout.on('data', function(data) {
@@ -19,12 +20,12 @@ term.on('key', function(name, matches, data) {
         term.bold.red("Are you sure you want to close the server? [Y|n] ");
         term.yesOrNo({yes: ['y', 'ENTER'], no: ['n']}, function(error, result) {
             if (result) {
-                term("Good bye!");
-                child.kill();
+                child.stdin.write("exit\n")
+                term("Closed the server.");
                 process.exit();
             }
             else {
-                term.green("Okay!\n");
+                term.green("Ok\n");
             }
         });
     }
@@ -86,6 +87,9 @@ function commandInput() {
             }
         }
         }, function(error, input) {
+            if (error) {
+                return term.blue("[MSC]").red(`[ERROR]: ${error}`)
+            }
             term.moveTo(...process.stdout.getWindowSize());
             child.stdin.write(input + "\n");
             history.push(input);
